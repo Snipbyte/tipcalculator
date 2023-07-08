@@ -1,0 +1,34 @@
+body
+{
+    background-color: rgba(252, 0, 129, 0.25);
+}
+.container
+{
+    margin: auto;
+    width: 50vh;
+    height: 70vh;
+    padding: 30px;
+    background-color: white;
+    box-shadow: rgba(252, 0, 129, 0.25) 12px 54px 55px, rgba(252, 0, 129, 0.25) 0px -12px 30px, rgba(252, 0, 129, 0.25) 0px 4px 6px, rgba(252, 0, 129, 0.25) 0px 12px 13px, rgba(252, 0, 129, 0.25) 0px -3px 5px;
+    border-radius: 12px;
+    margin-top: 55px;
+}
+input
+{
+    width: 90%;
+    padding: 10px;
+    height: 10%;
+    margin: auto;
+    outline: none;
+    font-size: large;
+}
+h2
+{
+    text-align: center;
+}
+@media (max-width: 600px) {
+    .container{
+        width: 80%;
+        height: 70vh;
+    }
+}
